@@ -1,0 +1,80 @@
+﻿body {
+	font-family:Arial;
+	color:#cccccc;
+}
+
+.container {
+	width:100%;
+	border-radius: 5px;
+	background: #cccccc;
+	box-shadow: 0 3px 8px #808080;
+}
+
+.home_Logo {
+	display: block;
+	position: relative;
+	background:#fff;
+	padding-bottom:30px;
+	border-bottom-left-radius: 150px 50px;
+	border-bottom-right-radius: 150px 50px;
+}
+
+.home_Logo img {
+	display:block; 
+	margin: 0 auto;
+}
+
+.index_Menu {
+	width: 100%;
+	background-color: #ccc;
+}
+
+.index_Menu table {
+	margin: 0 auto;
+	padding: 2em 0 5em 0;
+}
+
+.index_Menu table td {
+	width: 7em;
+	height: 7em;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	text-align:center
+}
+
+.buttons a {
+	margin: 0.2em;
+	float:right;
+}
+
+.searchCategories {
+    width: 100%;
+    clear: both;
+}
+
+#categories {
+    width: 85%;
+    height: 2.5em;
+    background: url(images/category_arrow.png) no-repeat right #FC7215;
+    color: #FFFFFF;
+    border: none; 
+    outline: none;
+    font-size: 20px;
+    overflow: hidden;
+    -webkit-appearance: none;
+    padding-top:0.2em;
+}
+
+.searchCategories option {
+    width: 65%;
+    height: 2em;
+    background: #FFFFFF;
+    color: #000000;
+    border: none; 
+    outline: none;
+    font-size: 18px;
+    overflow: hidden;
+    -webkit-appearance: none;
+    padding-top:0.4em;
+}
